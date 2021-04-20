@@ -1,0 +1,104 @@
+  body {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .icon {
+    color: whitesmoke !important;
+    font-weight: 800;
+  }
+  
+  .navbar a {
+    color:whitesmoke !important;
+    margin-right: 25px;
+  }
+  
+  .nav-right {
+    justify-content: flex-end;
+  }
+  
+  .btn-hire-me {
+    color: whitesmoke;
+    font-weight: 800;
+  }
+  
+  .carousel {
+    background: linear-gradient(315deg, #f9c5d1 0%, #FF725E 74%);;
+  }
+  
+  .carousel-item {
+    color: whitesmoke;
+    height: 500px;
+  }
+  
+  .carousel-description {
+    color: whitesmoke;
+  }
+
+  .carousel-control-prev {
+    color: lightgray;
+  }
+
+  .carousel-control-next {
+    color: lightgray;
+  }
+  
+  .feature-about-image {
+    width: 80%;
+    border-radius: 10%;
+    margin: 0 auto;
+  }
+  
+  .feature-about-divider {
+    margin: 86px;
+  }
+  
+  .p-2 {
+    background-color: #d3d3d3;
+    background-image: linear-gradient(315deg, #d3d3d3 0%, #ee5253 74%);
+    color: whitesmoke;
+    align-content: center;
+  }
+
+  .p {
+    justify-content: flex-end;
+  }
+  
+  .home-img {
+    display: block;
+    float: left;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    width: 40px;
+  }
+  
+  .about-main {
+    width: 90%;
+    height: auto;
+    margin: 30px;
+    padding: 100px;
+    justify-content: end;
+    flex-flow: wrap;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  .column-left {
+    width: 45%;
+    margin: 10px;
+    padding: 0;
+    float: left;
+    text-align: justify;
+    display: table;
+  }
+  
+  .column-right {
+    width: 45%;
+    margin: 10px;
+    padding: 0;
+    float: right;
+    text-align: justify;
+    display: table;
+  }
